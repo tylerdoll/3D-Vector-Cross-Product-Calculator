@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2FDA2E251BBA4F3D0066C9E2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA2E241BBA4F3D0066C9E2 /* main.cpp */; };
+		2FDA2E2E1BBA50410066C9E2 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA2E2C1BBA50410066C9E2 /* Vector.cpp */; settings = {ASSET_TAGS = (); }; };
+		2FDA2E311BBAFF120066C9E2 /* utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA2E2F1BBAFF120066C9E2 /* utilities.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		2FDA2E211BBA4F3D0066C9E2 /* Cross Product Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Cross Product Calculator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDA2E241BBA4F3D0066C9E2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2FDA2E2C1BBA50410066C9E2 /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; usesTabs = 1; };
+		2FDA2E2D1BBA50410066C9E2 /* Vector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vector.hpp; sourceTree = "<group>"; };
+		2FDA2E2F1BBAFF120066C9E2 /* utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utilities.cpp; sourceTree = "<group>"; };
+		2FDA2E301BBAFF120066C9E2 /* utilities.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = utilities.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				2FDA2E241BBA4F3D0066C9E2 /* main.cpp */,
+				2FDA2E2C1BBA50410066C9E2 /* Vector.cpp */,
+				2FDA2E2D1BBA50410066C9E2 /* Vector.hpp */,
+				2FDA2E2F1BBAFF120066C9E2 /* utilities.cpp */,
+				2FDA2E301BBAFF120066C9E2 /* utilities.hpp */,
 			);
 			path = "Cross Product Calculator";
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FDA2E311BBAFF120066C9E2 /* utilities.cpp in Sources */,
+				2FDA2E2E1BBA50410066C9E2 /* Vector.cpp in Sources */,
 				2FDA2E251BBA4F3D0066C9E2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
